@@ -1,0 +1,383 @@
+.el-popover.el-popper {
+  border-radius: 14px !important;
+  width: auto !important;
+  max-width: 580px !important;
+}
+
+
+.el-popover.is-light.popover_box {
+  [data-theme="dark"] & {
+    background-color: #fbecaf !important;
+  }
+}
+
+
+
+
+
+.van-popup.van-popover.chain,
+.van-popup.van-popover.token {
+
+
+  .van-popover__arrow {
+    width: 100% !important;
+    left: 50% !important;
+    top: -10px !important;
+    transform: translate(-50%, 0) !important;
+    border: none !important;
+    height: 20px !important;
+
+  }
+
+  .van-popover__action.van-popover__action--with-icon {
+    width: 194px;
+    padding: 0 0 0 12px;
+    margin-right: 0;
+  }
+
+  .van-icon__image {
+    width: 25px;
+    height: 25px;
+  }
+
+  .van-badge__wrapper.van-icon.van-popover__action-icon {
+    margin-right: 6px;
+  }
+
+  .van-popover__action-text.van-hairline--bottom {
+
+    min-width: 160px;
+    max-width: 160px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    height: 22px;
+    word-break: break-all;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    font-size: 16px;
+
+  }
+
+  .van-popover__action-text:after {
+    border: none !important;
+  }
+
+  &.van-popover--dark {
+    .van-popover__content.van-popover__content--vertical {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      background-color: #252628 !important;
+    }
+
+    .van-popover__arrow {
+      background-color: #252628 !important;
+    }
+
+    .van-popover__content div:hover {
+      background-color: #2e2e2f;
+    }
+
+  }
+
+  &.van-popover--light {
+    .van-popover__arrow {
+      background-color: #fff;
+    }
+  }
+
+}
+
+.report {
+  .el-select.select {
+
+
+
+    .el-input__inner {
+      background-color: #2e2e2e;
+    }
+
+    .el-input__wrapper,
+    input {
+      height: 38px;
+      background-color: #2e2e2e;
+      color: white;
+      font-size: 18px;
+
+
+      &::placeholder {
+        font-size: 16px;
+        color: #6C6C6C;
+      }
+    }
+
+    &.require {
+      .el-input__wrapper {
+        position: relative;
+
+        &::after {
+          content: "*";
+          position: absolute;
+          right: -24px;
+          top: 8px;
+          font-size: 24px;
+          color: red;
+        }
+      }
+    }
+  }
+
+  .el-input.input {
+
+
+    .el-input__inner {
+      background-color: #2e2e2e;
+    }
+
+    .el-input__wrapper,
+    input {
+      height: 38px;
+      background-color: #2e2e2e;
+      color: white;
+      font-size: 18px;
+
+
+      &::placeholder {
+        font-size: 16px;
+        color: #6C6C6C;
+      }
+    }
+
+    &.require {
+      .el-input__wrapper {
+        position: relative;
+
+        &::after {
+          content: "*";
+          position: absolute;
+          right: -24px;
+          top: 8px;
+          font-size: 24px;
+          color: red;
+        }
+      }
+    }
+
+  }
+
+  [data-theme="dark"] & {
+    .el-select.select {
+
+      .el-input__inner {
+        background-color: #ffffff;
+
+
+      }
+
+      .el-input__wrapper,
+      input {
+        border-radius: 0px !important;
+        height: 38px;
+        background-color: #ffffff;
+        color: #2c2c2c;
+        font-size: 18px;
+
+        &::placeholder {
+          font-size: 16px;
+          color: #6C6C6C;
+        }
+      }
+    }
+
+    .el-input.input {
+
+      .el-input__inner {
+        background-color: #ffffff;
+
+
+      }
+
+      .el-input__wrapper,
+      input {
+        border-radius: 0px !important;
+        height: 38px;
+        background-color: #ffffff;
+        color: #2c2c2c;
+        font-size: 18px;
+
+        &::placeholder {
+          font-size: 16px;
+          color: #6C6C6C;
+        }
+      }
+    }
+  }
+}
+
+
+.van-popup.van-popover.token {
+  .van-popover__action-text:after {
+    border: none !important;
+  }
+
+  .van-popover__action.van-popover__action--with-icon {
+    width: 154px;
+    // width: 174px;
+    padding: 0 0 0 16px;
+  }
+
+  .van-popover__action-text.van-hairline--bottom {
+    min-width: 93px;
+    max-width: 93px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  .van-badge__wrapper.van-icon.van-popover__action-icon {
+    margin-right: 10px;
+  }
+
+  &.van-popover--dark {
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+
+    .van-popover__content.van-popover__content--vertical {
+      background-color: #2e2e2e !important;
+    }
+
+    .van-popover__arrow {
+      background-color: #2e2e2e !important;
+    }
+
+    .van-popover__content div:hover {
+      background-color: #2e2e2f;
+    }
+
+  }
+
+  &.van-popover--light {
+    .van-popover__arrow {
+      background-color: #f7f7f7;
+    }
+
+    .van-popover__content.van-popover__content--vertical {
+      background-color: #f7f7f7 !important;
+    }
+
+    .van-popover__arrow {
+      background-color: #f7f7f7 !important;
+    }
+
+  }
+}
+
+
+
+
+.scroll-btn-color {
+  color: #606266 !important;
+}
+
+.scroll-message {
+  .el-message-box__status {
+    transform: translateY(0.1rem) !important;
+  }
+
+  .el-message-box__title {
+    justify-content: flex-start !important;
+    font-size: 22PX !important;
+  }
+
+  .el-message-box__message {
+    text-align: left !important;
+  }
+
+  .el-message-box__btns {
+    justify-content: flex-end !important;
+  }
+}
+
+:deep(.el-message-box.QRCode) {
+
+  min-width: 435px !important;
+  font-size: 100px !important;
+}
+
+
+.el-drawer__body {
+  display: flex;
+  justify-content: center;
+  line-height: 70px;
+  background: #171717;
+
+  [data-theme='dark'] & {
+    background-color: #FFF;
+  }
+}
+
+.el-popover.el-popper {
+  display: flex;
+
+  .icon_item {
+    .iconfont {
+      margin-left: 30px;
+      font-size: 40px;
+      color: $c3;
+    }
+  }
+}
+
+.el-pagination.is-background .el-pager li.is-active {
+  background-image: linear-gradient(to right, $linear_left, $linear_right) !important;
+  border-radius: 4px;
+
+  &:hover {
+    // color: #f39800 !important;
+  }
+}
+
+.el-pagination.is-background .el-pager li {
+
+  background: transparent !important;
+  font-size: 16px !important;
+  color: #FFF;
+
+  [data-theme='dark'] & {
+    color: $color8;
+  }
+
+  svg {
+    margin-top: 0px;
+  }
+
+  &:hover {
+    color: $linear_left;
+  }
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev {
+  background: transparent !important;
+  color: $linear_left;
+  font-size: 30px !important;
+}
+
+
+// Switch Network Dialog
+.el-dialog.is-align-center {
+  background: #2e2e2e;
+  border-radius: 14px;
+  width: 580px;
+}
+
+@media screen and (max-width: 768px) {
+  .el-dialog.is-align-center {
+    width: 700px !important;
+  }
+
+}
+
+.el-notification__content {
+  text-align: left !important;
+}

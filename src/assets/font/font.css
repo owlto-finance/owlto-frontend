@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'din-pro4';
+  src: url('D-DIN.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'din-pro7';
+  src: url('DINPro-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'din3';
+  src: url('DINPro-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'din';
+  src: url('D-DIN.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'din-bold';
+  src: url('DINCondensed-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'din1';
+  src: url('DINPro-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'din2';
+  src: url('DINPro-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'din-pro5';
+  src: url('D-DIN.otf.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'din-pro6';
+  src: url('D-DIN.otf.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */

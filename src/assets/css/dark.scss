@@ -1,0 +1,50 @@
+$main_color: var(--color-main-color);
+$main_color_active: var(--color-main-color-active);
+
+
+$white: #FFFFFF;
+$black: #181818;
+
+$linear_left:$main_color;
+$linear_right:$main_color_active;
+
+$color1: #df2e2d;
+$color2: #ca2221;
+$color3: #5d5d5d;
+$color4: #f5f5f5;
+$color5: #2D62E9;
+$color6: #adadad;
+$color7: rgba(0, 0, 0, 0.55);
+$color8: rgba(0, 0, 0, 0.85);
+/* $color8: #8c8c8c; */
+$color9: rgba(0, 0, 0, 0.1);
+$color10: rgba(0, 0, 0, 0.45);
+
+$c1: #2e2e2e;
+$c2: #262626;
+$c3: #818181;
+$c4: #1E1E1E;
+$c10: #242424;
+$c5:#FFF;
+$c6:#000;
+$c7:#C4C4C4;
+$c8: #93886a;
+$c9: #FAFAFa;
+
+
+
+$boxShadow1: 0 5px 18px 0 rgba(0, 0, 0, 0.06);
+$boxShadow2: 0 2px 4px rgba(0, 0, 0, .12),
+0 0 6px rgba(0, 0, 0, .04);
+
+$bg1: #181818;
+$bg2: #FFFFFF;
+$bg3: #F5F5F5;
+$bg4: rgba(45, 98, 233, 0.05);
+$bg5: rgba(0, 0, 0, 0.4);
+$bg6: rgba(45, 98, 233, 0.05);
+$bg7: rgba($color: #e2e2e2, $alpha: 0.2);
+
+$tbg1: #181818;
+$tbg2: #292828;
+$tbg3: #53514e;

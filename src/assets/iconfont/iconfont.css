@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4129905 */
+  src: url('iconfont.woff2?t=1688634712120') format('woff2'),
+       url('iconfont.woff?t=1688634712120') format('woff'),
+       url('iconfont.ttf?t=1688634712120') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ArrowUp:before {
+  content: "\e61b";
+}
+
+.icon-App_Menu:before {
+  content: "\e61c";
+}
+
+.icon-eye_right:before {
+  content: "\e617";
+}
+
+.icon-eye_left:before {
+  content: "\e618";
+}
+
+.icon-arrow1:before {
+  content: "\e619";
+}
+
+.icon-a-tick1:before {
+  content: "\e61a";
+}
+
+.icon-discord:before {
+  content: "\e609";
+}
+
+.icon-convert:before {
+  content: "\e60a";
+}
+
+.icon-info:before {
+  content: "\e60b";
+}
+
+.icon-cross:before {
+  content: "\e60c";
+}
+
+.icon-process:before {
+  content: "\e60d";
+}
+
+.icon-book:before {
+  content: "\e60e";
+}
+
+.icon-covert2:before {
+  content: "\e60f";
+}
+
+.icon-HISTORY:before {
+  content: "\e610";
+}
+
+.icon-identify:before {
+  content: "\e611";
+}
+
+.icon-received:before {
+  content: "\e612";
+}
+
+.icon-fees:before {
+  content: "\e613";
+}
+
+.icon-arrow:before {
+  content: "\e614";
+}
+
+.icon-LANNGUAGE:before {
+  content: "\e615";
+}
+
+.icon-send:before {
+  content: "\e616";
+}
+
+.icon-twitter:before {
+  content: "\e601";
+}
+
+.icon-medium:before {
+  content: "\e602";
+}
+
+.icon-copy:before {
+  content: "\e603";
+}
+
+.icon-github:before {
+  content: "\e604";
+}
+
+.icon-wallet:before {
+  content: "\e605";
+}
+
+.icon-network:before {
+  content: "\e606";
+}
+
+.icon-adress:before {
+  content: "\e607";
+}
+
+.icon-back:before {
+  content: "\e608";
+}
+
