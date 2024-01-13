@@ -1,0 +1,79 @@
+{
+  "id": "4393530",
+  "name": "web3",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "web33",
+  "glyphs": [
+    {
+      "icon_id": "25965329",
+      "name": "勋章",
+      "font_class": "xunzhang",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "999258",
+      "name": "太阳",
+      "font_class": "ai250",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "5944365",
+      "name": "功能",
+      "font_class": "gongneng",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "6671138",
+      "name": "记录",
+      "font_class": "jilu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "30044897",
+      "name": "月亮-fill",
+      "font_class": "moon-fill",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "730795",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "14583706",
+      "name": "shangxiafanjiantou",
+      "font_class": "weibiaoti7",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "35622719",
+      "name": "icon-more (1)",
+      "font_class": "a-icon-more1",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "826076",
+      "name": "web3",
+      "font_class": "web3",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    }
+  ]
+}

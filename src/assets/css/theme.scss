@@ -1,0 +1,175 @@
+@mixin main_color {
+  background: $bg1;
+  color: $white !important;
+
+
+  [data-theme='dark'] & {
+    background: $c9;
+    color: $color8 !important;
+
+  }
+}
+
+@mixin navbar_color {
+  color: $color4;
+
+  [data-theme='dark'] & {
+    color: #211105;
+  }
+}
+
+
+
+@mixin homeChainBox {
+  width: 100%;
+  background: $c1;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgba(46, 46, 46, 1);
+  padding: 10px 20px 20px 20px;
+  box-sizing: border-box;
+
+  font-weight: 450;
+
+  [data-theme='dark'] & {
+    background: #f7f7f7;
+    box-shadow: none;
+
+
+  }
+}
+
+
+@mixin tokenSelectionMenu {
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.08);
+  height: 20px;
+  padding: 14px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+  background: $c1;
+  cursor: pointer;
+  font-weight: 450;
+  font-size: 28px;
+
+  [data-theme='dark'] & {
+    background: #f7f7f7;
+    color: $color8;
+    box-shadow: none;
+  }
+}
+
+@mixin chainSelectionMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #252629;
+  padding: 6px 16px 6px 12px;
+  border-radius: 5px 5px 5px 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 200px;
+  height: 51px;
+
+  [data-theme='dark'] & {
+    background: #fff;
+    color: $color8;
+  }
+}
+
+@mixin maxBalance {
+  margin-right: 10px;
+  display: inline-block;
+  background: #434236;
+  padding: 0px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fcca00;
+
+  [data-theme='dark'] & {
+    background: #fff;
+  }
+}
+
+@mixin homaChainBoxTitle {
+  font-size: 14px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #FFFFFF;
+  font-weight: 600;
+
+  [data-theme='dark'] & {
+    color: $color8;
+  }
+}
+
+// @mixin bottomBar {
+//   position: absolute;
+//   left: 0;
+//   bottom: 0;
+//   width: 100vw;
+//   height: 90px;
+//   background: $black;
+//   position: fixed;
+//   bottom: 0px;
+//   box-sizing: border-box;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 0 40px;
+
+//   [data-theme='dark'] & {
+//     background: transparent; 
+//     position: absolute;
+//     left: 0;
+//     bottom: 0;
+//   }
+
+//   @media screen and (max-width: 768px) {
+
+//     position: absolute;
+//     height: auto;
+//     // background: transparent;
+//     // padding: 10px 0;
+
+//   }
+// }
+
+@mixin bottomBarIcon {
+  color: $c3;
+  font-size: 46px;
+
+  // [data-theme='dark'] & {
+  // color: $c7;
+  // }
+}
+
+@mixin homeFromChainInput {
+  width: 100%;
+  text-align: right;
+  border: none;
+  letter-spacing: 0.5px;
+  background: #2e2e2e;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid rgba(79, 79, 79, 1);
+
+  [data-theme='dark'] & {
+    background: #FFF;
+  }
+}
+
+@mixin textLoading {
+  border: 2px solid $color4;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-right-color: rgba(0, 0, 0, 0.2);
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+
+  [data-theme="dark"] & {
+    border: 2px solid $color8;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.2);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+  }
+}

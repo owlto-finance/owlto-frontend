@@ -1,0 +1,167 @@
+:root {
+  font-family: Inter, "Inter var";
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  user-select: none;
+}
+
+a {
+  font-weight: 450;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+html {
+  background: #181818 !important;
+
+  [data-theme='dark'] & {
+    background: $c9 !important;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  background: #181818;
+  color: $white !important;
+  font-family: "Inter var", Inter !important;
+
+  [data-theme='dark'] & {
+    background: $c9;
+    color: $color8 !important;
+    font-family: "Inter var", Inter !important;
+  }
+}
+
+.backdrop-blur-sm {
+  color: #000000D9 !important
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #ffffff;
+    background-color: #181818;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+// Input 
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+  /* WebKit browsers */
+  color: #999;
+
+}
+
+// Scroll 
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.01);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: #dddee0;
+  transition: color 0.2s ease;
+
+  [data-theme='dark'] & {
+    background: rgba(0, 0, 0, 0.25);
+  }
+}
+
+// Host
+.svgicon {
+  color: $main_color !important;
+  font-family: din-pro7 !important;
+}
+
+.icon-info {
+  font-size: 20px !important;
+  cursor: pointer;
+  color: $color3;
+
+  [data-theme='dark'] & {
+    color: $c7 !important;
+
+  }
+}
+
+.icon, .iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.rules_img {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .rules_img {
+    width: 100% !important;
+  }
+}
