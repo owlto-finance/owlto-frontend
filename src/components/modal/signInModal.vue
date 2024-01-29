@@ -136,7 +136,7 @@ const tableHead = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const tableBody = reactive([]);
 const contractList = ref([]);
 const historyList = ref([]);
-const date = ref(moment(new Date()).format("MMM YYYY"));
+const date = ref(moment(new Date()).utc().format("MMM YYYY"));
 
 const showArrowRight = ref(true);
 const showArrowLeft = computed(() => {
@@ -336,9 +336,9 @@ const mapInit = () => {
       tableBody[index] = {
         ...tableBody[index],
         click:
-          value == moment(new Date()).format("D") &&
-          dateIos.month() === moment(new Date()).month() &&
-          dateIos.year() === moment(new Date()).year(),
+          value == moment(new Date()).utc().format("D") &&
+          dateIos.month() === moment(new Date()).utc().month() &&
+          dateIos.year() === moment(new Date()).utc().year(),
       };
     } else {
       tableBody[index] = {
