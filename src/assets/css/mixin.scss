@@ -84,7 +84,7 @@
 }
 
 @mixin img_size($w:20px, $h:20px) {
-  max-width: $w;
+  width: $w;
   max-height: $h;
   line-height: $h;
 
